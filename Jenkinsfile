@@ -7,7 +7,7 @@ pipeline {
         REGION = "eu-west-3"
         AWS_S3_BUCKET = "dfgabriel-ebs"
         ARTIFACT_NAME = "demo-boot-app.jar"
-        GIT_URL = "https://github.com/AurelieMDS/DemoBoot.git"
+        GIT_URL = "https://github.com/PrSomni/demoBoot.git"
         AWS_EB_APP_NAME = "Demo-boot-app"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
         AWS_EB_ENV_NAME = "Demo-boot-app-env"
